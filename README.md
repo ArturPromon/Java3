@@ -1,4 +1,4 @@
- # Java2
+ # Java3
 
 ## Github
 *Commands:*</br>
@@ -16,4 +16,7 @@
 **git config --global user.email johndoe@example.com - enter your email address**</br>
 **git config --global user.name - control who we are**</br>
 
-**https://git-scm.com/book/ru/v2 - more info on russian**
+**https://git-scm.com/book/ru/v2 - more info on russian**</br>
+
+**Создайте программу, выводящую на экран первые 10 элементов последовательности 2 4 8 16 32 64 128 256 ...,
+А затем туже самую последовательность, но уже без числа 128, то есть  2 4 8 16 32 64 256 512 ...**
