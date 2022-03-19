@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main21 {
@@ -22,10 +23,13 @@ public class Main21 {
             if (someString.charAt(i) != ' ') {
                 total++;
             }
-
         }
+        int i =0;
         for(String element : totalwords){
-            words++;
+            if(!totalwords[i].equals(" ")){
+                words++;
+            }
+            i++;
         }
         System.out.println(count);
         System.out.println(total);
